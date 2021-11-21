@@ -73,9 +73,9 @@ h1 {
 .composer h2 {
     background-color: #FFF;
     text-align: center;
-    padding: 5px;
+    padding: 8px;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .composer #input {
