@@ -15,6 +15,7 @@ function playSound(sound) {
     if (audioElement) { //Verifica se o audioElement (arquivo na pasta relacionada) foi encontrada, e da play.
         audioElement.currentTime = 0; //Reduz o intervalo de play do audio, podendo ser tocado varias vezes em seguida
         audioElement.play();
+
     }
     if (keyElement) { //Verifica se audio foi encontrado e a determina como active pelo css. responsável por mudar a cor da tecla.
         keyElement.classList.add('active');
